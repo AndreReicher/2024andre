@@ -36,3 +36,8 @@ body{
     align-items: center;
     padding: 12px;
 }
+
+.cabecalho{
+    width: 15%;
+    border-radius: 10%;
+}
