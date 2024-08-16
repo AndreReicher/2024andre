@@ -21,14 +21,6 @@ body{
     font-size: 16px;
 }
 
-.titulo-principal{
-    font-family: var(--font-titulo);
-}
-
-.texto{
-    font-family: var(--font-texto);
-}
-
 .cabecalho{
     background-color: var(--preto);
     display: flex;
@@ -36,8 +28,15 @@ body{
     align-items: center;
     padding: 12px;
 }
-
-.cabecalho{
+.cabecalho-logo{
     width: 15%;
     border-radius: 10%;
 }
+.cabecalho-nav_link{
+    text-decoration: none;
+    font-family: var(--vermelhoescuro);
+    font-size: 24px;
+    color: var(--amarelo);
+    margin-right: 24px;
+}
+
