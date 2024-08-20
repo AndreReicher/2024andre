@@ -9,14 +9,15 @@
 --preto: rgb(0, 0, 0);
 --vermelhoescuro: #621708ff;
 --vermelho: #941b0cff;
---laranja: #bc3908ff;
+--laranja: rgb(212, 81, 33);
 --amarelo: #f6aa1cff;
+--cinza:rgb(71, 78, 102);
 --font-texto: "Roboto", sans-serif;
 --font-titulo: "New Amsterdam", sans-serif;
 }
 
 body{
-    background-color: var(--preto);
+    background-color: var(--laranja);
     font-family: var(--font-texto);
     font-size: 16px;
 }
@@ -36,7 +37,10 @@ body{
     text-decoration: none;
     font-family: var(--vermelhoescuro);
     font-size: 24px;
-    color: var(--amarelo);
+    color: var(--laranja);
     margin-right: 24px;
 }
 
+.pinto{
+    border-radius:100%;
+}
