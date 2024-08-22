@@ -9,15 +9,15 @@
 --preto: rgb(0, 0, 0);
 --vermelhoescuro: #621708ff;
 --vermelho: #941b0cff;
---laranja: rgb(212, 81, 33);
---amarelo: #f6aa1cff;
+--laranja: rgb(170, 52, 9);
+--amarelo: rgb(206, 146, 35);
 --cinza:rgb(71, 78, 102);
 --font-texto: "Roboto", sans-serif;
 --font-titulo: "New Amsterdam", sans-serif;
 }
 
 body{
-    background-color: var(--laranja);
+    background-color: var(--amarelo);
     font-family: var(--font-texto);
     font-size: 16px;
 }
@@ -30,17 +30,18 @@ body{
     padding: 12px;
 }
 .cabecalho-logo{
-    width: 15%;
+    width: 23%;
     border-radius: 10%;
 }
 .cabecalho-nav_link{
     text-decoration: none;
     font-family: var(--vermelhoescuro);
     font-size: 24px;
-    color: var(--laranja);
+    color: var(--amarelo);
     margin-right: 24px;
 }
 
-.pinto{
+.logo-de-baixo{
     border-radius:100%;
+    width: 25%;
 }
