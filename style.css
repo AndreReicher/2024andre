@@ -41,7 +41,22 @@ body{
     margin-right: 24px;
 }
 
+.cabecalho-nav_link:hover{
+    font-size: 32px;
+    transition: 1s;
+}
+
 .logo-de-baixo{
     border-radius:100%;
     width: 25%;
+}
+
+.principal-capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    background-image: url(img/792.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
