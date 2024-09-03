@@ -53,12 +53,13 @@ body{
 
 .principal-capa{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 300px;
     background-image: url(img/792.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 90px 12px;
 }
 
 .principal-capa__combotao{
@@ -70,9 +71,20 @@ body{
 .principal-capa__botao{
     background-color: var(--laranja);
     color: var(--preto);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1em;
     margin-top: 2em;
     text-decoration: none;
 }
 
+.principal-capa__botao:hover{
+    padding: 1.2em;
+    background-color: var(--preto);
+    color: var(--laranja);
+    transition: 0,5s;
+}
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--amarelo);
+    color: var(--cinza);
+}
